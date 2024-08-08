@@ -8,10 +8,10 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFDirectoryLoader
 import os
 import time
-import config
+import streamlit as st
 
 
-groq_api_key = config.groq_api_key
+groq_api_key = st.secrets["GROQ_API_KEY"]
 
 
 def groq_llm():
