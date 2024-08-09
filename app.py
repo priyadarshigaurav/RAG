@@ -12,7 +12,7 @@ import utils
 
 
 #UI Title
-st.title("Concepts of Biology")
+st.title("Concepts of Biology(Chap-1,2)")
 
 #LLM Initilization
 llm = utils.groq_llm()
